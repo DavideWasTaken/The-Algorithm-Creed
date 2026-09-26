@@ -1,0 +1,32 @@
+# Local secrets
+.env
+.env.*
+!.env.example
+config.local.*
+*.pem
+*.key
+
+# Runtime data
+*.log
+logs/
+pending_publish*.jsonl
+.pending-*.tmp
+*.mp3
+*.wav
+*.ogg
+*.flac
+.algorithmcreed.lock
+models/
+
+# Python / tools
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.codex/
+.vscode/
+.idea/
+
+# Artist website is deployed separately
+web/
